@@ -20,6 +20,7 @@ package org.springframework.kafka.retrytopic;
  * The bean names for the non-blocking topic-based delayed retries feature.
  * @author Tomaz Fernandes
  * @author Gary Russell
+ * @author Cenk Akin
  * @since 2.9
  */
 public final class RetryTopicBeanNames {
@@ -62,6 +63,6 @@ public final class RetryTopicBeanNames {
 	 * The bean name of the internally registered scheduler wrapper, if needed.
 	 */
 	public static final String DEFAULT_SCHEDULER_WRAPPER_BEAN_NAME =
-			"defaultRetryTopicKafkaTemplate";
+			"defaultRetryTopicSchedulerWrapper";
 
 }

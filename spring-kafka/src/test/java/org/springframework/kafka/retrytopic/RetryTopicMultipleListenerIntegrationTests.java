@@ -55,8 +55,8 @@ import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.verify;
 
 /**
- * @author Tomaz Fernandes
- * @since 2.8.3
+ * @author Cenk Akin
+ * @since 3.0.3
  */
 @SpringJUnitConfig
 @DirtiesContext
